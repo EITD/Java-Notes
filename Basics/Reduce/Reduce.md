@@ -1,8 +1,5 @@
 # Reduce
 
-> Refer to [Why is a combiner needed for reduce method](https://stackoverflow.com/questions/24308146/why-is-a-combiner-needed-for-reduce-method-that-converts-type-in-java-8) for more information.
-> 
-
 ### Two-Arg reduction
 
 ```java
