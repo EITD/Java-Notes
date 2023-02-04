@@ -90,6 +90,6 @@ public class ThreadTest04 {
 ### Advantage
 
 <aside>
-💡 The class implements an interface and it can **inherit other class**, which is more flexible.
+💡 The class implements an interface and it can inherit other class, which is more flexible.
 
 </aside>
