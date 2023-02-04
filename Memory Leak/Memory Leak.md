@@ -48,7 +48,7 @@ Forgetting to close these resources can block the memory, thus keeping them out 
 - Always use `finally` block to close resources.
 - The code that closes the resources **shouldn't have any exceptions** itself.
 
-### ****Improper *equals()* and *hashCode()* Implementations**
+### Improper *equals()* and *hashCode()* Implementations
 
 Since we haven't defined the proper `equals()` method, the duplicate objects pile up and **increase the memory**.
 
@@ -71,7 +71,7 @@ public void givenMap_whenEqualsAndHashCodeNotOverridden_thenMemoryLeak() {
 }
 ```
 
-If we'd overridden the `equals()` and `hashCode()` methods properly, then only one `Person` **object would exist in this `Map`*.*
+If we'd overridden the `equals()` and `hashCode()` methods properly, then only one `Person` object would exist in this `Map`.
 
 ```java
 public class Person {
