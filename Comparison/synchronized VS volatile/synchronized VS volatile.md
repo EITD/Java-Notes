@@ -10,8 +10,6 @@
 
 </aside>
 
-![Untitled](synchronized%20VS%20volatile%20248ea5fbd3734361a2fd700956b9fde4/Untitled.png)
-
 ## Synchronized
 
 - Prevents any other thread from obtaining the monitor lock for **the same object**, thereby preventing other threads to access the object and executing concurrently.
